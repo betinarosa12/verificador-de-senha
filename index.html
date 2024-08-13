@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Verificador de senha</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+  <body>
+    <div class="bloco">
+      <div class="bloco-label">
+        <label class="label">Faça Login</label>
+      </div>
+      <div class="bloco-input">
+        <input class="input" id="senha" placeholder="Digite sua senha:" />
+      </div>
+      <div class="bloco-botao">
+        <button class="botao" onclick="fazerLogin()">FAZER LOGIN</button>
+      </div>
+      <div class="bloco-criterios">
+        <p class="criterios">
+          ° A senha deve ter no mínimo 8 caracteres.
+          <br />
+          <br />
+          ° A senha deve conter pelo menos um caractere especial.
+        </p>
+      </div>
+    </div>
+  </body>
+  <script src="java.js"></script>
+</html>
